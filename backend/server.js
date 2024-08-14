@@ -9,11 +9,11 @@ const cron = require('node-cron');
 const fs = require('fs');
 
 // Import your existing code and middleware
-require('../middleware/mongodb');
-const Doctor = require('../models/doctor.model');
-const Attendance = require('../models/attendance.model');
-const Setting = require('../models/setting.model');
-const settingJson = require('../setting');
+require('./middleware/mongodb');
+const Doctor = require('./models/doctor.model');
+const Attendance = require('./models/attendance.model');
+const Setting = require('./models/setting.model');
+const settingJson = require('./setting');
 
 // Declare global variable
 global.settingJSON = {};
@@ -104,7 +104,7 @@ cron.schedule("50 23 * * *", async () => {
 app.use(express.json());
 app.use(cors());
 app.use(logger("dev"));
-const indexRoute = require('../route/index');  // Adjust the path as necessary
+const indexRoute = require('./route/index');  // Adjust the path as necessary
 app.use(indexRoute);
 app.use('/storage', express.static(path.join(__dirname, 'storage')));
 
