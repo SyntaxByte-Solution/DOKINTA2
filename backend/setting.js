@@ -1,0 +1,38 @@
+module.exports = {
+  "_id": "65268c530489a584a41b35d9",
+  "tnc": "https://www.google.com/",
+  "privacyPolicyLink": "https://www.google.com/",
+  "createdAt": "2023-10-11T11:51:47.941Z",
+  "updatedAt": "2024-06-24T06:20:16.517Z",
+  "tax": 10,
+  "isRazorPay": true,
+  "isStripePay": true,
+  "razorPayId": "rzp_test_SjZz9HC7RGCfCb",
+  "razorSecretKey": "## SECRET KEY ##",
+  "stripePublishableKey": "pk_test_51OFsHfSEMYOcpDHW9N2WeARWsZWPsnWR9reSE7shbyqUPbQpCmLv113AULXO9w6tLN1EbAmxUp3mcuCBHfJkHQJd00Qwe8Wq8v",
+  "stripeSecretKey": "sk_test_51OFsHfSEMYOcpDHWKU0EJzlAUaoU7q3f8aI8wDdOjsRP0VER1nK0Jo0Q625NaLrSztqFvc5k40yN8iEGLczHKCdD00p2Fnyzm8",
+  "maintenanceMode": false,
+  "cashAfterService": true,
+  "currencyName": "USDfff",
+  "currencySymbol": "USDfdf",
+  "flutterWaveKey": "FLWPUBK_TEST-cdc51a4df113a91fe33a914eaf8d1c75-X",
+  "isFlutterWave": true,
+  "commissionPercent": 12,
+  "zegoAppId": "391783286",
+  "zegoAppSignIn": "db8d67943f882e5ce6e949df667e828b5d3e0e23c9d636d35cc3628d7008edbb",
+  "minWithdraw": 200,
+  "firebaseKey":   {
+    "type": "service_account",
+    "project_id": "teledokinta-579e8",
+    "private_key_id": "e9d29f82bb488845b62917565c085f9e6bdc44ed",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDStW9Y/agpRueg\n/hE1MK2phmnEwybpZhKsBvu1JV8LhyFFhpeabruY3EinMC79RlZoNcQrawsvKuFf\n0fICuijwjEI4nV0UjCBAqE9i95eGW24YcyJW1S/appigh35UpKX27EZd72TXnYDZ\nwdrSHJ7Q5AEgGufW+pZGmMQJkr2R7z2zLCP7aKd+mlL9BgbbFs7xJ+m/fgs4KwEu\njgc4YI4lNJ62coXTqcd+T5bX1giOHzGOZG50A+BXwvCJyydqUV5Ibnveu4gmDLDD\n4APKKvhrBXQBbbVif4glY1jnFjKgjPK927xq9Tjic29L1QFZHqM+IkobfTu9/igJ\nmo6Vtx7TAgMBAAECggEAA5HvZ29kzTSjJNpcXRPy3U+mgYVZwDqdtl+n6oaaxac6\n33xLghWLBPWc6+t1E48aVHzhhgEz5bV94ngikZYPe4Pk21ccBjnmXsuucw7SEmsa\nKNZKjqeuCxZauUP41mMaLMTaeSnFNTufiaqVlCaUykh5FgIrfqKTfHHtYGKMGhzb\ntBhiqb1jQGtpwCMLrUwzvC/9DbPb+9yzkYcTvBCI/RWa6lTpLfxypXX1gBSLieVK\nCmIFeVIok86Xi63VUe8DQmvY56VhGYwMAxXIivbSbARWWtSa69msrEpU+dJuoFD3\nVRh9ME+WeLaJ2WBUPJk0IzytsgOPDOrh+zvCg9QDAQKBgQD6BLOqqSwf0/8oy5mn\nFHLrgkh5dr+4TtRmREAOyCgAFca5VXQlKAKj03v548OprF5GZiCB7pM+0z8wJjix\n9Mffu9V31KLWLPHA58EFE8zYIUh9lJ8+Kj0zo9UXxaMvM1eAnGOHPGPqyIHxikSZ\nTRysULJXBSRLQR49hiwSrB9fCQKBgQDXv/jCm0MgJh5ab2U5VWxRoyHrSIhysvSd\niWsBTgmmN5eUPZ8ixOohA5YQ3RlIXvsIAVWpuMxpjHPayxfC+hJBuRGb8uJMaSni\nx8mvmb3mFsAaxEkU/mSD0pGmuHTBIg1Rv2PDA8iMXz5dUI4BeE9CQtQRovgMaZ3F\nsPSJSXip+wKBgQDnoGuDdG94nUMLXHThocRGA9F5FlbQPdfxVtGx4CWOzp3pHg4Y\nTlUDye5VuHmRPCurNPpw5cJstfEYfpCP7aMu2CoQdmLV4ZWnjg340js5ELzD+2j8\ngs1ohiPpfiSMmhg7AqgCpiQ7Y79fMyYSkKo7yhcvH4hcX9vQS/mQ4v29YQKBgH4O\n+LYcKbhbDVkhxS8erk901Zi3pKH/1dVGOXNluVWZHcPLzXNvQq1PfxsTVHZoqJwg\ny4CDLUxueDLaf2O44XntPFC2NWsX9xU+TqV/WulZWZ1KGrldejVbjyaul+lQkB+3\nh/6l80OxUqsLKi3JseWxTl+PrQbznu+nWPnuJ8aJAoGAASUDhauLtNk3+ljNFeGg\n4/s+2cVF5Gdw3bB/pSWGTaFYTfXjLIifQRU82haPIY4aps8KWmMQETEzzhf7gYrt\nGFXery9WqaQ9u8P5xaWZf6KCvZAX0/SnngAjj1U0FbNtbo/nLAEulVtxl4Uui0Yh\ntbm58EX0UigsSX5Iz5B/Rlg=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-srrzl@teledokinta-579e8.iam.gserviceaccount.com",
+    "client_id": "112154322497792444617",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-srrzl%40teledokinta-579e8.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+
+};
